@@ -75,7 +75,7 @@ services:
 
   logistics:
     build:
-      context: ref-logistics-app-backend
+      context: ref-logistics-app
       dockerfile: logisticDocker
     restart: always
     environment:
@@ -121,7 +121,7 @@ services:
 
   logistics-api-client:
     build:
-      context: ref-logistics-app-backend
+      context: ref-logistics-app
       dockerfile: logisticApiDocker
     restart: always
     environment:
@@ -140,7 +140,7 @@ services:
 
   notification:
     build:
-      context: ref-logistics-app-backend
+      context: ref-logistics-app
       dockerfile: notificationDocker
     restart: always
     environment:
