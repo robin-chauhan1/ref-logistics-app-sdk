@@ -6,12 +6,17 @@ A logistics application refers to an application that enables retail seller appl
 
 | **Version** | **Date** | **Changes** |
 |---|---|---|
-| **v1.1.0 (Future Release)** | 31st Sep 2023 (Tentative) | - Will be adding Live Tracking<br>- Will be making changes from contract v1.2.0 to contract v1.1.0 (backwards compatibility)<br>- Will be adding support for intercity deliveries.<br>- Will be adding serviceability settings. |
+| **v1.1.0 ** |October 12, 2023  | - Order Assignment to driver on the basis of their location <br>- Real-time Location tracking  and updating frequently (5 sec) and accurately <br>- Sharing Live location via tracking link <br>- Real-time map view of the driver’s location <br>- Delivery location to be shown as the given address of the buyer <br>- Hubs Module for P2H2P delivery <br>- Serviceability for Hyperlocal and Intercity delivery <br>- Price calculation for Hyperlocal delivery <br>- Backward compatibility with both the versions v1.1.0 and v.1.2.0 <br>
 | **v1.0.0** | 15th Sep 2023 | - Added P2P support<br>- Added PWA support<br>- Added support for Logistics v1.2.0 contract (/search, /init, /confirm, /update, /status, /track) and related callbacks<br>- Added support for IGM APIs (/issue, /on_issue)<br>- Added tasks view for viewing active, ongoing and completed tasks<br>- Added driver and admin view for managing status of invited and onboarded drivers<br>- Added issues view for managing issues raised in post order journey<br>- Added inviting view for adding administrators and delivery agents to the application<br>- Added role based login to application<br>- Added support for return to origin deliveries<br>- Added cancellation flow for triggering RTO/disposal<br>- Added track URL for post order tracking for buyer applications |
 
 ## Documentation
 
-[Documentation](https://ref-logistics-app-stage.ondc.org/) // added logistics application api
+[White Label Document](https://docs.google.com/document/d/1NH-G4-C8h7yztbMT0Lncr0fN8G6T4dcQV6jxz2hpHcs)
+
+
+## Links
+
+[Staging](https://ref-logistics-app-stage.ondc.org/) || [Pre Prod](https://ref-logistics-app-preprod.ondc.org/)
 
 ## Tech Stack
 
@@ -58,8 +63,8 @@ composed together with docker-compose.yaml
 2. Make sure you've pulled all sub-directories .
 
 ```bash
-    git submodule init
-    git submodule update
+    git submodule init
+    git submodule update --remote --recursive
 ```
 
 3. Copy environment variables from env.example file to env.local
