@@ -18,6 +18,18 @@ A logistics application refers to an application that enables retail seller appl
 
 [Staging](https://ref-logistics-app-stage.ondc.org/) || [Pre Prod](https://ref-logistics-app-preprod.ondc.org/)
 
+## Login Credientials
+
+1. Admin Login: [link](https://ref-logistics-app-stage.ondc.org/login)
+    - email: <refappsupport1@gmail.com> | <refappsupport2@gmail.com> | <refappsupport3@gmail.com> | <refappsupport4@gmail.com> | <refappsupport5@gmail.com>
+    - password: Ondc@1234!
+
+2. Driver login (PWA): [link](https://ref-logistics-app-stage.ondc.org/driver/login)
+    - default number: 8755515001 | 8755515002 | 8755515003 | 8755515004 | 8755515005
+    - default OTP: 0701 (default for all)
+
+
+
 ## Tech Stack
 
 | Type         | Technologies                                                                            |
