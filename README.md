@@ -16,7 +16,7 @@ A logistics application refers to an application that enables retail seller appl
 
 ## Links
 
-[Staging](https://ref-logistics-app-preprod.ondc.org/) || [Pre Prod](https://ref-logistics-app-preprod.ondc.org/)
+[Staging](https://ref-logistics-app-stage.ondc.org/) || [Pre Prod](https://ref-logistics-app-preprod.ondc.org/)
 
 ## Login Credientials
 
